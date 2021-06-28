@@ -1,0 +1,5 @@
+sed -e 's/"(//' sed -e 's/)"//' sed -e "s/'//g" sed -e "s/ //g" test.csv
+
+for i in `cat ../PDB_list.txt`; do echo $i > tmp; A=`awk -F "|" '{print $1}' tmp`; 
+sed -e 's/"//g' sed -e 's/]//' sed -e "s/\[//g"  sed -e "s/'//g" sed -e "s/ //g" plm.max.$A.hhE0.nor.csv > plm.0.02.$A.hhE0.nor.r.csv; done
+

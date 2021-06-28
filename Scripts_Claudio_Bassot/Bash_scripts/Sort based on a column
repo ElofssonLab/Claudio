@@ -1,0 +1,2 @@
+sort -t"," -k2 -n re.csv > prova3.txt
+

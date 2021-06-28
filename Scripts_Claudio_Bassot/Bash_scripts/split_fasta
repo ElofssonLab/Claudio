@@ -1,0 +1,3 @@
+awk 'BEGIN {O="";} /^>/ { O=sprintf("%s.fa",substr($0,2));} {if(O!="") print >> O;}' ../Database_SS 
+
+

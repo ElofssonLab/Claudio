@@ -1,0 +1,2 @@
+<10.ppv.inter cut -d' ' -f3 | sort -n | uniq -c 
+

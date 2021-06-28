@@ -1,0 +1,1 @@
+bioawk -c fastx '{ if(length($seq) > 500) { print ">"$name; print $seq }}' C56B718E-5BFD-11E7-B575-61E9DBC3747A.2-fullseq.fa  > Nhe_disC_500.fa

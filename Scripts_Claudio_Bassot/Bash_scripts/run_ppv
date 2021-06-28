@@ -1,0 +1,2 @@
+for i in `cat '/home/cbassot/Claudio/LargeS/Dataset/PDB_struct/List_PDB|C'`; do echo $i > tmp1; A=`awk -F "|" '{print $1}' tmp1`; B=`awk -F "|" '{print $2}' tmp1`; python '/home/cbassot/bioinfo-toolbox-master/inter_ppv.py' --chain $B -f1 /home/cbassot/Claudio/LargeS/Dataset/DS_FASTA/$A.$B.fasta /home/cbassot/Claudio/LargeS/Dataset/INTRA_CON/PPV/$A.$B.intra /home/cbassot/Claudio/LargeS/Dataset/PDB_struct/$A.pdb > ./1/$A.$B.inter_1_ppv; done; cat *./1/ > 1_intra_ppv
+

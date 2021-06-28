@@ -1,0 +1,1 @@
+tr a-z A-Z < prova2.fasta > prova4.fasta

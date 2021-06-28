@@ -1,0 +1,3 @@
+ for i in `cat /home/cbassot/Claudio/plm_g_merge/claudio/PDB_list.txt`; do echo $i > tmp; A=`awk -F "|" '{print $1}' tmp`; python /home/cbassot/bioinfo-toolbox-master/ppv.py /home/cbassot/Claudio/plm_g_merge/claudio/fasta/$A.fa r_MAX.$A.hhE0 /home/cbassot/Claudio/plm_g_merge/claudio/$A.pdb > ./result_MAX_con/ppv.$A.MAX_hhE4; done
+
+

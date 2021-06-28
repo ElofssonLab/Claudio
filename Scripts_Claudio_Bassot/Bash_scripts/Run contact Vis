@@ -1,0 +1,4 @@
+python ../plot_contact_map.py '/home/cbassot/Claudio/NHE/TMdomain/Structures/NhaA_EC/NhA_EC.fasta' EC0.1.g*plm0.00t.pos -f1 -o EC0.1.g*plm0.00t.pos.pdf --pdb '/home/cbassot/Claudio/NHE/TMdomain/Structures/NhaA_EC/4au5.pdb' 
+
+
+

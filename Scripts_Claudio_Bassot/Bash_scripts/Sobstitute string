@@ -1,0 +1,1 @@
+sed -i "s/ /\n/g" Nhe_7_6.csv

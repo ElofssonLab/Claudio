@@ -1,0 +1,2 @@
+grep -E "38[7-9]|39[0-9]|40[0-9]|41[0-9]" foo '/home/cbassot/Claudio/NHE/TrkA-N/prova2.txt.csv'> loop.csv
+

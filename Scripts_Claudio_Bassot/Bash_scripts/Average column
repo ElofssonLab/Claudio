@@ -1,0 +1,1 @@
+awk '{ total += $3 } END { print total/NR }' merged
