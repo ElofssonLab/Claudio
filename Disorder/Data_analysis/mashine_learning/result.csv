@@ -1,0 +1,5 @@
+Predictor,Pearson
+pcons,0.62
+Old ML,0.68
+New NO length,0.81
+New with length,0.91
